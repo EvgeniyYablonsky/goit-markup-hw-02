@@ -1,0 +1,77 @@
+body {
+    font-family: Roboto ;
+  
+
+}
+.text {
+    color: #757575;
+}
+.text1 {
+    color: #212121;
+}
+.header-item {
+    color: #212121;
+
+}
+.header-link1 {
+    color: #2196F3;
+}
+.header-link {
+    color: #212121;
+}
+.header-link2 {
+    color: #2196F3;
+}
+.header-tel {
+color: #757575;
+}
+.header-mail {
+    color: #757575;
+}
+
+body {
+    background-color: #FFFF;
+}
+.hero {
+    background-color: #2F303A;
+    color: #FFFF;
+
+}
+.hero-btn {
+    background-color: #2196F3;
+    color: #FFFF;
+    font-size: 16px;
+    line-height: 30px;
+
+}
+
+.about {
+    color: #757575;
+}
+.about-us {
+    background-color: #F5F4FA;
+
+}
+.button-all {
+    background-color: #F5F4FA;
+
+}
+.button-all1 {
+    background-color: #2196F3;
+    color: #FFFF;
+}
+
+.contacts {
+    background-color: #2F303A;
+
+
+}
+.adress-list {
+    color: #FFFF;
+}
+
+/* Цвет основного текста color: #212121; */
+/* вторичный цвет текста color: #757575; */
+/* белый color: #FFFFFF; */
+/* акцент  color: #2196F3; */
+/* вторичный цвет фона #2F303A */
