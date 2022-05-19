@@ -19,8 +19,23 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #212121;
 }
+.header-link {
+font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #2196F3;
+}
 .header-item {
 color: #212121;
+list-style: none;
+
+}
+.header-list {
+    list-style: none;
 
 }
 .header-link1 {
@@ -55,15 +70,36 @@ color: #212121;
     letter-spacing: 0.02em;
 }
 .header-mail {
-    color: #2196F3;
+    color: #757575;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
+.header-link2 {
+    color: #212121;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+}
+.header-link3 {
+    color: #2196F3;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+}
+.header-link2:hover .header-link2:hover {
+    color: #2196F3;
+}
 
-
+.header-link2:focus .header-link2:focus  {
+    color: #2196F3;
+}
 body {
     background-color: #FFFF;
 }
@@ -91,7 +127,24 @@ body {
     letter-spacing: 0.06em;
     color: #FFFFFF;
 }
+.hero-list {
+    list-style: none;
+}
+.about2 {
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;   
+        color: #212121;
+}
+.about {
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.03em;
+        color: #757575;
+        list-style: none;
 
+}
 .about1-link {
     font-weight: 500;
         font-size: 16px;
@@ -103,13 +156,28 @@ body {
     background-color: #F5F4FA;
 
 }
+
+.about1-link {
+    list-style: none;
+}
+.about2 {
+    list-style: none;
+}
 .button-all {
     background-color: #F5F4FA;
-
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: #212121;
 }
 .button-all1 {
     background-color: #2196F3;
-    color: #FFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
 }
 
 .contacts {
@@ -118,11 +186,23 @@ body {
 
 
 }
-.adress-list {
-    color: #FFFF;
-    text-decoration: none;
+.adress {
+    list-style: none;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
 }
 
+
+.adress-link2 {
+    font-style: normal;  
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
 /* Цвет основного текста color: #212121; */
 /* вторичный цвет текста color: #757575; */
 /* белый color: #FFFFFF; */
