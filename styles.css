@@ -19,14 +19,12 @@ text-transform: uppercase;
 color: #212121;
 }
 .header-link {
-font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    text-decoration: none;
-    color: #2196F3;
+    color: #212121;
 }
 .header-item {
 color: #212121;
@@ -44,6 +42,14 @@ list-style: none;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+}
+.header {
+text-decoration: none;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #2196F3;
 }
 .header-link  {
     color: #212121;
@@ -135,12 +141,13 @@ body {
         letter-spacing: 0.06em;   
         color: #212121;
 }
-.about {
+.about-work {
         font-size: 16px;
         line-height: 1.88;
         letter-spacing: 0.03em;
         color: #757575;
         list-style: none;
+    
 }
 .about1-link {
     font-weight: 500;
@@ -150,14 +157,21 @@ body {
         color: #212121;
 }
 .about-us {
-    background-color: #F5F4FA;
+    background-color: #F5F4FA
+    ;
 
+}
+.about {
+    text-align: center;
 }
 .about1-link {
     list-style: none;
 }
 .about2 {
     list-style: none;
+}
+.name {
+    text-align: center;
 }
 .button-all {
     background-color: #F5F4FA;
@@ -167,7 +181,7 @@ body {
     letter-spacing: 0.03em;
     color: #212121;
 }
-.button-all1 {
+.button-all-main {
     background-color: #2196F3;
     font-weight: 500;
     font-size: 16px;
@@ -179,6 +193,11 @@ body {
 .contacts {
     background-color: #2F303A;
     text-decoration: none;
+    font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: #2196F3;
 
 
 }
@@ -189,15 +208,24 @@ body {
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
-
-
-.adress-link2 {
-    font-style: normal;  
+.adress-link {
+    font-style: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    color: #FFFFFF;
     text-decoration: none;
+}
+
+.adress-link2 {
+    font-style: normal;
+    color: #757575;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 /* Цвет основного текста color: #212121; */
 /* вторичный цвет текста color: #757575; */
