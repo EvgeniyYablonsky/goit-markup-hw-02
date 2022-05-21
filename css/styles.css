@@ -1,43 +1,44 @@
 body {
-font-family: Roboto sans-serif ;
+    font-family: Roboto, sans-serif ;
 
     }
 ul {
-    list-style: none;
+list-style: none;
 }
 :root {
-    ---main-btn-color: #212121;
-    ---second-btn-color:#2196F3;
-    ---main-title-color:#212121;
-    ---second-title-color: #757575;
-    ---third-title-color:#FFFFFF;
+---main-btn-color: #212121;
+---second-btn-color:#2196F3;
+---main-title-color:#212121;
+---second-title-color: #757575;
+---third-title-color:#FFFFFF;
 }
 .text {
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: var(---second-title-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(---second-title-color);
 }
 .text1 {
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(---main-btn-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(---main-btn-color);
 }
 .header {
+    text-decoration: none;
     font-family: "Relaway";
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    text-decoration: none;
+    
 }
 .header-item {
-color: var(---main-btn-color);
+    color: var(---main-btn-color);
 }
 .header-link1 {
     text-decoration: none;
@@ -47,15 +48,8 @@ color: var(---main-btn-color);
     letter-spacing: 0.02em;
     color: var(---second-btn-color);
 }
-.header {
-text-decoration: none;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-color: var(---second-btn-color);
-}
-.header-link  {
+
+.header-contacts  {
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -87,11 +81,11 @@ color: var(---second-btn-color);
 }
 .header-link3 {
     color: #2196F3;
-        text-decoration: none;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .header-link2:hover .header-link2:hover {
     color: #2196F3;
@@ -147,18 +141,17 @@ body {
 }
 .about2 {
     font-weight: 700;
-        font-size: 18px;
-        line-height: 2;
-        letter-spacing: 0.06em;   
-        color: #212121;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;   
+    color: #212121;
 }
 .about-work {
-        font-size: 16px;
-        line-height: 1.88;
-        letter-spacing: 0.03em;
-        color: #757575;
-        list-style: none;
-    
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
+    list-style: none;
 }
 .name {
     font-weight: 500;
