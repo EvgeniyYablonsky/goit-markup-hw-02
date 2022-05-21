@@ -1,46 +1,51 @@
 body {
-font-family: Roboto ;
+font-family: Roboto sans-serif ;
 
+    }
+ul {
+    list-style: none;
+}
+:root {
+    ---main-btn-color: #212121;
+    ---second-btn-color:#2196F3;
+    ---main-title-color:#212121;
+    ---second-title-color: #757575;
+    ---third-title-color:#FFFFFF;
 }
 .text {
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(---second-title-color);
 }
 .text1 {
-color: #212121;
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #212121;
+color: var(---main-btn-color);
 }
-.header-link {
+.header {
+    font-family: "Relaway";
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #212121;
+        text-decoration: none;
 }
 .header-item {
-color: #212121;
-list-style: none;
-
-}
-.header-list {
-
+color: var(---main-btn-color);
 }
 .header-link1 {
-    color: #2196F3;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    color: var(---second-btn-color);
 }
 .header {
 text-decoration: none;
@@ -48,15 +53,15 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
-color: #2196F3;
+color: var(---second-btn-color);
 }
 .header-link  {
-    color: #212121;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    color: #212121;
 }
 .header-link:hover  {
     color: #2196F3;
@@ -64,16 +69,7 @@ color: #2196F3;
 .header-link:focus {
     color: #2196F3;
 }
-
-.header-tel {
-    color: #757575;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-}
-.header-mail {
+.header-contact {
     color: #757575;
     text-decoration: none;
     font-weight: 500;
@@ -82,12 +78,12 @@ color: #2196F3;
     letter-spacing: 0.02em;
 }
 .header-link2 {
-    color: #212121;
-        text-decoration: none;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(---main-title-color)
 }
 .header-link3 {
     color: #2196F3;
@@ -109,7 +105,6 @@ body {
 }
 .hero {
     background-color: #2F303A;
-    
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -130,9 +125,7 @@ body {
     letter-spacing: 0.06em;
     color: #FFFFFF;
 }
-.hero-list {
-    list-style: none;
-}
+
 .about2 {
     font-weight: 700;
         font-size: 18px;
@@ -161,10 +154,9 @@ body {
 
 }
 .about {
-    text-align:center
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.03em;
+    font-size:16px;
+    line-height:1.88;
+    letter-spacing:0.03em;
     color: #757575;
 }
 .about1-link {
@@ -173,9 +165,7 @@ body {
 .about2 {
     list-style: none;
 }
-.name {
-    text-align: center;
-}
+
 .button-all {
     background-color: #F5F4FA;
     font-weight: 500;
@@ -183,7 +173,7 @@ body {
     line-height: 1.62;
     letter-spacing: 0.03em;
     color: #212121;
-    
+
 }
 .button-all-main {
     background-color: #2196F3;
@@ -192,7 +182,7 @@ body {
     line-height: 1.62;
     letter-spacing: 0.03em;
     color: #FFFFFF;
-    text-decoration: none;
+    list-style: none;
 }
 
 .contacts {
