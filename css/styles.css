@@ -34,7 +34,7 @@ color: var(---main-btn-color);
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-        text-decoration: none;
+    text-decoration: none;
 }
 .header-item {
 color: var(---main-btn-color);
@@ -113,6 +113,15 @@ body {
     text-transform: uppercase;
     color: #FFFFFF;
 }
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
 .hero-btn {
     background-color: #2196F3;
     font-family: inherit;
@@ -125,7 +134,17 @@ body {
     letter-spacing: 0.06em;
     color: #FFFFFF;
 }
+.hero-btn:hover {
+    color: #188CE8;
+}
 
+.work-what {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
 .about2 {
     font-weight: 700;
         font-size: 18px;
@@ -141,19 +160,25 @@ body {
         list-style: none;
     
 }
+.name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
 .about1-link {
     font-weight: 500;
-        font-size: 16px;
-        line-height: 19px;
-        letter-spacing: 0.03em;
-        color: #212121;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #212121;
 }
 .about-us {
-    background-color: #F5F4FA
-    ;
-
+    background-color: #F5F4FA;
 }
 .about {
+    font-weight: 400;
     font-size:16px;
     line-height:1.88;
     letter-spacing:0.03em;
@@ -173,7 +198,6 @@ body {
     line-height: 1.62;
     letter-spacing: 0.03em;
     color: #212121;
-
 }
 .button-all-main {
     background-color: #2196F3;
@@ -193,8 +217,6 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #2196F3;
-
-
 }
 .adress {
     list-style: none;
