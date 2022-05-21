@@ -127,6 +127,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
+    
 }
 .hero-btn:hover {
     color: #188CE8;
@@ -191,6 +192,7 @@ body {
     line-height: 1.62;
     letter-spacing: 0.03em;
     color: #212121;
+    
 }
 .button-all-main {
     background-color: #2196F3;
