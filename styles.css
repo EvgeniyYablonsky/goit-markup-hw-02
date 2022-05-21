@@ -32,7 +32,6 @@ list-style: none;
 
 }
 .header-list {
-   
 
 }
 .header-link1 {
@@ -162,7 +161,11 @@ body {
 
 }
 .about {
-    text-align: center;
+    text-align:center
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
 .about1-link {
     list-style: none;
@@ -180,6 +183,7 @@ body {
     line-height: 1.62;
     letter-spacing: 0.03em;
     color: #212121;
+    
 }
 .button-all-main {
     background-color: #2196F3;
@@ -188,16 +192,17 @@ body {
     line-height: 1.62;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+    text-decoration: none;
 }
 
 .contacts {
     background-color: #2F303A;
     text-decoration: none;
     font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
-        color: #2196F3;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
 
 
 }
