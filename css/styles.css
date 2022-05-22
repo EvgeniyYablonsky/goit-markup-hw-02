@@ -27,9 +27,9 @@ list-style: none;
     text-transform: uppercase;
     color: var(---main-btn-color);
 }
-.header {
+.header-link {
     text-decoration: none;
-    font-family: "Relaway";
+    font-family: "Relaway" sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -37,6 +37,7 @@ list-style: none;
     letter-spacing: 0.03em;
     
 }
+
 .header-item {
     color: var(---main-btn-color);
 }
@@ -72,6 +73,7 @@ list-style: none;
     letter-spacing: 0.02em;
 }
 .header-link2 {
+    font-family: Roboto sans-serif;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -80,6 +82,7 @@ list-style: none;
     color: var(---main-title-color)
 }
 .header-link3 {
+    font-family: Roboto sans-serif;
     color: #2196F3;
     text-decoration: none;
     font-weight: 500;
@@ -130,7 +133,7 @@ body {
     
 }
 .hero-btn:hover {
-    color: #188CE8;
+    background-color: #188CE8;
 }
 
 .work-what {
@@ -159,6 +162,14 @@ body {
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
+    color: #212121;
+}
+.about-us{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;    
     color: #212121;
 }
 .about1-link {
@@ -219,6 +230,9 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+}
+.address-list {
+    text-decoration: none;
 }
 .adress-link {
     font-style: normal;
