@@ -81,7 +81,7 @@ list-style: none;
     color: var(---main-title-color)
 }
 
-.current {
+.current1 {
     font-family: Roboto sans-serif;
     color: var(---second-btn-color);
     text-decoration: none;
