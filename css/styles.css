@@ -90,11 +90,11 @@ list-style: none;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-.header-link2:hover .header-link2:hover {
+.current1:hover .current1:hover {
     color: var(---second-btn-color);
 }
 
-.header-link2:focus .header-link2:focus  {
+.current1:focus .current1:focus  {
     color: var(---second-btn-color);
 }
 body {
@@ -195,7 +195,6 @@ body {
     list-style: none;
 }
 .car-title {
-
         font-weight: 700;
         font-size: 18px;
         line-height: 2;
