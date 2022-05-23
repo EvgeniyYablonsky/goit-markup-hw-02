@@ -28,14 +28,13 @@ list-style: none;
     color: var(---main-btn-color);
 }
 .header-link {
-    text-decoration: none;
     font-family: "Relaway" sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    
+    text-decoration: none;
 }
 
 .header-item {
@@ -168,7 +167,6 @@ body {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
-    text-align: center;
     letter-spacing: 0.03em;    
     color: #212121;
 }
@@ -232,6 +230,13 @@ body {
     color: #FFFFFF;
 }
 .address-list {
+    font-family: "Relaway" sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
     text-decoration: none;
 }
 .adress-link {
