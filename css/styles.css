@@ -27,7 +27,7 @@ list-style: none;
     text-transform: uppercase;
     color: var(---main-btn-color);
 }
-.header-link {
+.main-header-link {
     font-family: "Relaway" sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -55,24 +55,24 @@ list-style: none;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(---main-btn-color);
 }
 .header-link:hover  {
-    color: #2196F3;
+    color: var(---second-btn-color);
 }
 .header-link:focus {
-    color: #2196F3;
+    color: var(---second-btn-color);
+
 }
 .header-contact {
-    color: #757575;
+    color: var(---second-title-color);
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-.header-link2 {
-    font-family: Roboto sans-serif;
+.header-link {
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -80,9 +80,10 @@ list-style: none;
     letter-spacing: 0.02em;
     color: var(---main-title-color)
 }
-.header-link3 {
+
+.current {
     font-family: Roboto sans-serif;
-    color: #2196F3;
+    color: var(---second-btn-color);
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -90,14 +91,14 @@ list-style: none;
     letter-spacing: 0.02em;
 }
 .header-link2:hover .header-link2:hover {
-    color: #2196F3;
+    color: var(---second-btn-color);
 }
 
 .header-link2:focus .header-link2:focus  {
-    color: #2196F3;
+    color: var(---second-btn-color);
 }
 body {
-    background-color: #FFFF;
+    background-color: var(---third-title-color);
 }
 .hero {
     background-color: #2F303A;
@@ -107,7 +108,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(---third-title-color);
 }
 .hero-title {
     font-weight: 900;
@@ -116,10 +117,10 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(---third-title-color);
 }
 .hero-btn {
-    background-color: #2196F3;
+    background-color: var(---second-btn-color);
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
@@ -128,32 +129,32 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    color: var(---third-title-color);
     
 }
 .hero-btn:hover {
     background-color: #188CE8;
 }
 
-.work-what {
+.section-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(---main-btn-color)
 }
 .about2 {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;   
-    color: #212121;
+    color: var(---main-btn-color);
 }
 .about-work {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(---second-title-color);
     list-style: none;
 }
 .name {
@@ -161,21 +162,21 @@ body {
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(---main-btn-color);
 }
 .about-us{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: 0.03em;    
-    color: #212121;
+    color: var(---main-title-color);
 }
 .about1-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(---main-title-color);
 }
 .about-us {
     background-color: #F5F4FA;
@@ -185,7 +186,7 @@ body {
     font-size:16px;
     line-height:1.88;
     letter-spacing:0.03em;
-    color: #757575;
+    color: var(---second-title-color);
 }
 .about1-link {
     list-style: none;
@@ -193,23 +194,30 @@ body {
 .about2 {
     list-style: none;
 }
+.car-title {
 
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        color: var(---main-btn-color);
+}
 .button-all {
-    background-color: #F5F4FA;
+    background-color: var(---third-title-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(---main-btn-color);
     
 }
 .button-all-main {
-    background-color: #2196F3;
+    background-color: var(---second-btn-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(---third-title-color);
     list-style: none;
 }
 
@@ -220,17 +228,17 @@ body {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color: var(---second-btn-color);
 }
 .adress {
     list-style: none;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(---third-title-color);
 }
 .address-list {
-    font-family: "Relaway" sans-serif;
+    font-family: "Relaway", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -245,13 +253,13 @@ body {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(---third-title-color);
     text-decoration: none;
 }
 
 .adress-link2 {
     font-style: normal;
-    color: #757575;
+    color: var(---second-title-color);
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
